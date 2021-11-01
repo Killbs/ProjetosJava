@@ -1,0 +1,9 @@
+package exercicio1;
+
+public class CalcularValorTroco {
+
+	
+	public static void main(String[] args) {
+		System.out.println("batatinha frita, 1,2,3");
+	}
+}

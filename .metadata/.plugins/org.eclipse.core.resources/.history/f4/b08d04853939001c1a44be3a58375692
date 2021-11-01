@@ -1,0 +1,23 @@
+package exercicio1;
+
+import java.util.Scanner;
+
+public class ExercicioCalculadoracomMetodo {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		Double numeroInicial = 0.0;
+		chamadaNumero(numeroInicial);
+	}
+	
+	static Double chamadaNumero(Double Numero) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Digite o Numero");
+		Double numero = scanner.nextDouble();
+		System.out.println(numero);
+		return numero;
+	}
+	
+
+}

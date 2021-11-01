@@ -1,0 +1,14 @@
+package exercicio1;
+
+import java.util.Scanner;
+
+public class CalcularValorTroco {
+
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		Double ValorProduto = scanner.nextDouble();
+		System.out.println("Valor Produto = " + ValorProduto);
+				
+	}
+}

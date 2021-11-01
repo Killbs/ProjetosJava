@@ -1,0 +1,25 @@
+package exercicio1;
+
+import java.util.Scanner;
+
+public class ExercicioCalculadoracomMetodo {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		Double primeiroNumero = imprimirPrimeiroNumero(scanner);
+		Double segundoNumero = imprimirSegundoNumero(scanner);
+
+		System.out.println(primeiroNumero + " " + segundoNumero );
+	}
+
+	static Double imprimirPrimeiroNumero(Scanner scanner) {
+		System.out.println("Informe o Numero");
+		return scanner.nextDouble();
+	}
+	
+	static Double imprimirSegundoNumero(Scanner scanner) {
+		System.out.println("Informe o Numero");
+		return scanner.nextDouble();
+	}
+	
+}
