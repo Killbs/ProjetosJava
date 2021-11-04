@@ -47,6 +47,7 @@ public class ExercicioCalculadoracomMetodo {
 		return scanner.nextInt();
 	}
 	//Conforme explicação acima, aqui rodamos um case que chama outros metodos com o intuito de resolver a equação
+	//com isso retornamos o valor da variavel resultado
 	
 	static Double operacaoSelecionada (Integer selecao, Double primeiroNumero, Double segundoNumero) {
 		Double resultado = null;
