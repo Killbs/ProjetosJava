@@ -1,3 +1,1 @@
-teste1
-teste2
-branch master - 1
+Atualização do branch Master para o git remoto
