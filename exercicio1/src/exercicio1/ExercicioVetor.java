@@ -6,6 +6,7 @@ public class ExercicioVetor {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
+		
 		String [] tarefas = new String[5];
 		imprimir(" Digite as Tarefas: ");
 		
@@ -32,5 +33,6 @@ public class ExercicioVetor {
 		for (int i = 0;i<tarefa.length;i++) {
 			tarefa[i] = scanner.nextLine();
 		}
+		scanner.close();
 	}
 }
