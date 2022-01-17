@@ -15,7 +15,7 @@ public class ExercicioNota {
 				System.out.println("Aluno passou com a nota: " + Nota);
 			}
 			else{
-				System.out.println("Aluno Reprovado com a diferença de nota: " + (7 - Nota));
+				System.out.println("Aluno Reprovado com a diferenï¿½a de nota: " + (7 - Nota));
 			}
 	
 		scanner.close();	
